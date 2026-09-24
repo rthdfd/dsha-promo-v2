@@ -41,10 +41,10 @@ jobs:
       - name: Install edge-tts
         run: pip install -r requirements.txt
 
-      - name: Install CJK fonts（否则中文豆腐块）
+      - name: Install CJK fonts + ffmpeg（否则中文豆腐块；ffmpeg 包提供 ffprobe，供 metadata/stills/audit 步骤）
         run: |
           sudo apt-get update
-          sudo apt-get install -y fonts-noto-cjk
+          sudo apt-get install -y fonts-noto-cjk ffmpeg
 
       - name: Generate SFX（程序化音效）
         run: python3 scripts/generate_sfx.py
