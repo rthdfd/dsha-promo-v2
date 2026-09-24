@@ -1,0 +1,13 @@
+[
+  { "id": "s0-hook",       "text": "免 Root、免 Termux，装完即用。" },
+  { "id": "s1a-webgui",    "text": "完整 Ubuntu 24.04，apt 随便用。" },
+  { "id": "s1b-terminal",  "text": "proroot 零 ptrace 开销，关键项实测快百分之五十八。" },
+  { "id": "s1c-floating",  "text": "AI 的输出，实时贴上屏幕顶。" },
+  { "id": "s2-adb",        "text": "配一次 ADB，智能体直接操作这台手机：点击、滑动、截屏、装应用，不需要 Shizuku。" },
+  { "id": "s3-vscreen",    "text": "还有实验性虚拟屏：AI 在另一块屏幕上，替你打开并操作另一个应用。" },
+  { "id": "s4a-guard",     "text": "危险操作，你说了算。" },
+  { "id": "s4b-backup",    "text": "卸载重装，数据不丢。" },
+  { "id": "s4c-selfcheck", "text": "坏了，它说清哪坏了。" },
+  { "id": "s5a-plugins",   "text": "插件生态，浏览、安装、启停，全部在 App 内完成。" },
+  { "id": "s5b-cta",       "text": "六百一十六颗星，MIT 开源。在 GitHub 搜索 DSH-APP 斜杠 DSHA，在手机上跑起 DeepSeek Harness。" }
+]

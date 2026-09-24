@@ -1,0 +1,26 @@
+{
+  "name": "dsha-promo-v2",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DSHA 宣传片 v2 · Remotion 渲染工程（重活全部在 GitHub Actions 完成）",
+  "license": "MIT",
+  "scripts": {
+    "prepare:media": "python3 scripts/generate_sfx.py && python3 scripts/generate_voice.py && node scripts/prepare-assets.mjs",
+    "render:review": "node scripts/render.mjs review",
+    "render:master": "node scripts/validate-master.mjs && node scripts/render.mjs master"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.514",
+    "lucide-react": "1.48.0",
+    "qrcode": "1.5.4",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "remotion": "4.0.514"
+  },
+  "devDependencies": {
+    "@types/qrcode": "1.5.6",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "typescript": "5.9.3"
+  }
+}
